@@ -32,29 +32,33 @@ from sklearn.cluster import KMeans
 from sklearn import mixture
 from sklearn.metrics import silhouette_score
 ```
+## Files
 
-## Jupyter Notebook
+### Jupyter Notebook
 ReaderClusters.py contains the following code:
 
-### Data Understanding
+#### Data Understanding
 - Collecting data on a random selection of users and user shelves via the Goodreads API
 - Storing data in dataframes and saving as csv files for easy access
 
-### Data Preparation
+#### Data Preparation
 - Examining distribution of data 
 - Cleaning hyper-unique shelf names by mapping them to more common names 
 - Addressing skewed and sparse data
 - Combining user and user shelves data sets
 
-### Modeling 
+#### Modeling 
 - Different thresholds for minimum number of users per shelf/shelves per user were tested in conjunction with principal component analysis and several cluster analyses: K-means, Ward and Average Linkages Clustering. 
 - Visual of PCA highlights what genres are associated with each component.
 
-### Evaluation
+#### Evaluation
 - All cluser analyses showed low silhouette scores. The highest was K-means with PCA, with a silhouette score of .2.
 
-### Appendix
+#### Appendix
 - Notebook contains additional views of user/shelf data, with descriptive statistics on age and geographical location.
+
+### Shelf Dictionary
+shelf_dictionary.txt - used in Jupyter Notebook to map uncommon shelf spellings to common spellings
 
 ## Conclusion
 The Goodreads user shelf data is spars and higlighy variable. There is potential generating more accurate reader profiles with more complete and standardized data. A blog post explores possibilities for future analysis in greater depth: 
