@@ -61,4 +61,4 @@ ReaderClusters.py contains the following code:
 shelf_dictionary.txt - used in Jupyter Notebook to map uncommon shelf spellings to common spellings
 
 ## Conclusion
-The Goodreads user shelf data is sparse and higlighy variable. There is potential generating more accurate reader profiles with more complete and standardized data. A blog post explores possibilities for future analysis in greater depth: 
+The Goodreads user shelf data is sparse and higlighy variable. There is potential generating more accurate reader profiles with more complete and standardized data. A blog post explores possibilities for future analysis in greater depth: https://lomarar.medium.com/what-can-we-learn-from-how-readers-organize-their-books-online-9bbb43d78eee
