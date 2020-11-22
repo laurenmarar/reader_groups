@@ -49,7 +49,8 @@ ReaderClusters.py contains the following code:
 
 #### Modeling 
 - Different thresholds for minimum number of users per shelf/shelves per user were tested in conjunction with principal component analysis and several cluster analyses: K-means, Ward and Average Linkages Clustering. 
-- Visual of PCA highlights what genres are associated with each component.
+- Visual of PCA highlights what genres are associated with each component:
+![Heatmap Image](https://github.com/laurenmarar/reader_groups/blob/main/heatmap.PNG)
 
 #### Evaluation
 - All cluser analyses showed low silhouette scores. The highest was K-means with PCA, with a silhouette score of .2.
